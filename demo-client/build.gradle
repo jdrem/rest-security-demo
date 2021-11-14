@@ -1,0 +1,17 @@
+plugins {
+    id 'gradle.demo.java-application-conventions'
+}
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    // https://mvnrepository.com/artifact/org.springframework/spring-web
+    implementation 'org.springframework:spring-web:5.3.13'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    runtimeOnly 'com.fasterxml.jackson.core:jackson-core:2.13.0'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    runtimeOnly 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

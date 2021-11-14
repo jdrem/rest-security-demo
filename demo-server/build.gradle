@@ -1,0 +1,10 @@
+plugins {
+    id 'gradle.demo.java-application-conventions'
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security:spring-security-core:5.5.3'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
