@@ -26,7 +26,7 @@ public class DemoClientApplication {
         SpringApplication.run(DemoClientApplication.class, args);
     }
 
-    @Value("${app.keystore.password}")
+    @Value("${keystore.password}")
     private String keystorePassword;
 
     @Value("${cert.name}")
